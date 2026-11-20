@@ -1,4 +1,4 @@
-# Dinghy: build the packages on GitHub, run the host tests, and on a tag vX.Y publish the release with a build
+# Endless Memory (from Dinghy): build the packages on GitHub, run the host tests, and on a tag vX.Y publish the release with a build
 # attestation (actions/attest-build-provenance): the Firmware Hub shows "Built from source" for exactly these files.
 # The JieLi toolchain comes from pkgman.jieliapp.com (tools/get_toolchain.sh), the AC79 SDK from gitee.com, as in
 # sloopDX's and OberVave's workflows. Run by hand (workflow_dispatch) for a test build without a release.
@@ -81,3 +81,8 @@ jobs:
             build/endless-memory-[0-9]*.fwsc
             build/SHA256SUMS
           generate_release_notes: true
+          prerelease: true
+          body: |
+            > **Warning: not tested on a real FM-1 yet.** Tested on a computer and in the online FM-1 emulator only. Install at your own risk and keep another firmware ready to flash back.
+
+            Install the `.fwsc` file with the M-VAVE updater or M-Flasher. See the [operator manual](https://github.com/jaak-stjaaques/Endless-Memory/blob/main/docs/OPERATOR-MANUAL.md).
