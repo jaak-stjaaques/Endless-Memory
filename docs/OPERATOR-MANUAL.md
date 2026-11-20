@@ -1,6 +1,6 @@
 # Endless Memory operator manual
 
-For **Endless Memory 0.5** on the **M‑VAVE FM‑1**.
+For **Endless Memory 0.5.1** on the **M‑VAVE FM‑1**.
 
 > [!WARNING]
 > **Not tested on a real FM‑1 yet.** Endless Memory has only been tested on a computer and in the online FM‑1 emulator. Install it on your FM‑1 at your own risk, and keep the stock firmware or another firmware ready to flash back.
@@ -17,11 +17,11 @@ Every labelled button does what its label says. Only two have new jobs: **SEL** 
 ## Play in a browser
 
 Open the [FM‑1 emulator](https://joakimeriksson.github.io/fm1-emu/), load
-`endless-memory-0.5.fwsc` and press **Start** to enable audio.
+`endless-memory-0.5.1.fwsc` and press **Start** to enable audio.
 
 ## Install
 
-Download `endless-memory-0.5.fwsc` from the [releases](https://github.com/jaak-stjaaques/Endless-Memory/releases)
+Download `endless-memory-0.5.1.fwsc` from the [releases](https://github.com/jaak-stjaaques/Endless-Memory/releases)
 and install it with the M‑VAVE updater or M‑Flasher like any other FM‑1 firmware.
 
 ## Make your first staircase
@@ -192,6 +192,6 @@ else, hold **SAVE**, turn **PRESETS** to the slot you want, and let go.
   <img src="screenshots/boot-logos.png" width="640" alt="The ten boot logos: Rise, Clock, Fade, Freeze, Spiral, Grid, Echo, Loop, Word and Monogram">
 </p>
 
-Version 0.5 starts with **Word**: ENDLESS climbs a step per letter, and MEMORY
+Version 0.5.1 starts with **Word**: ENDLESS climbs a step per letter, and MEMORY
 fades letter by letter. Nine other logos are built in. To choose another, build
 with `DINGHY_DEFS="-DEM_LOGO=n"`, where `n` runs from 0 (Rise) to 9 (Monogram).

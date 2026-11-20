@@ -173,10 +173,10 @@ static void env_tick(voice_t *v)
         if (e >= (1 << 24)) { e = 1 << 24; st = 2; }
         break;
     case 2:
-        e -= ((e - (int32_t)E.sus) >> 8) * (int32_t)E.dec >> 8;
+        e -= (int32_t)(((int64_t)(e - (int32_t)E.sus) * E.dec) >> 16);   /* (64-bit: the short ends overflowed 32) */
         break;
     case 3:
-        e -= (e >> 8) * (int32_t)E.rel >> 8;
+        e -= (int32_t)(((int64_t)e * E.rel) >> 16);
         if (e < 2048) { e = 0; st = 0; }
         break;
     }
@@ -186,10 +186,10 @@ static void env_tick(voice_t *v)
         if (t >= (1 << 24)) { t = 1 << 24; ts = 2; }
         break;
     case 2:
-        t -= ((t - (int32_t)E.tsus) >> 8) * (int32_t)E.tdec >> 8;
+        t -= (int32_t)(((int64_t)(t - (int32_t)E.tsus) * E.tdec) >> 16);
         break;
     case 3:
-        t -= (t >> 8) * (int32_t)E.rel >> 8;
+        t -= (int32_t)(((int64_t)t * E.rel) >> 16);
         break;
     }
     v->env = e; v->tenv = t; v->stage = st; v->tstage = ts;

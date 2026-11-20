@@ -1,6 +1,6 @@
 # Build and test Endless Memory
 
-The FM‑1 package for version 0.5 is `build/endless-memory-0.5.fwsc`. The device's
+The FM‑1 package for version 0.5.1 is `build/endless-memory-0.5.1.fwsc`. The device's
 installer identifies Endless Memory as `FM-1_965`.
 
 ## Build on a computer
@@ -13,7 +13,7 @@ python3 -m pip install Pillow
 sh tools/get_toolchain.sh
 git clone --depth 1 --branch AC79NN_SDK_V1.2.1_2023-12-13 \
     https://gitee.com/Jieli-Tech/fw-AC79_AIoT_SDK.git ~/fw-AC79_AIoT_SDK
-sh build.sh --release 0.5
+sh build.sh --release 0.5.1
 ```
 
 Use `JIELI_TOOLCHAIN` and `AC79_SDK` to point at copies you already have. Without
@@ -44,4 +44,4 @@ inherited low-level interfaces.
 
 The offline suite exercises the synth, the updater and the package checks. An
 actual USB install and power-cycle test on a physical FM‑1 remain to be verified
-for Endless Memory 0.5. Dinghy's USB rescue path is included.
+for Endless Memory 0.5.1. Dinghy's USB rescue path is included.

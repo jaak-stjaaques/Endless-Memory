@@ -1,7 +1,7 @@
 # Endless Memory
 
 <p align="center">
-  <img src="docs/screenshots/boot.png" width="320" alt="Endless Memory boot screen: the word ENDLESS climbing a step per letter, MEMORY fading, version 0.5">
+  <img src="docs/screenshots/boot.png" width="320" alt="Endless Memory boot screen: the word ENDLESS climbing a step per letter, MEMORY fading, version 0.5.1">
   <img src="docs/screenshots/home-freeze.png" width="320" alt="HOME page with the last note, the climb circle and the four filter knobs">
 </p>
 <p align="center">
@@ -27,7 +27,7 @@ all with a high-pass and a low-pass filter on the home page.
 
 [Read the operator manual](docs/OPERATOR-MANUAL.md) · [Build and test](docs/BUILDING.md) · [Credits and licenses](LICENSING.md)
 
-**Version 0.5** builds as `endless-memory-0.5.fwsc`. The host tests and the
+**Version 0.5.1** builds as `endless-memory-0.5.1.fwsc`. The host tests and the
 simulated installer checks passed. It has **not yet been installed on a physical
 FM‑1**, so installation and power-cycle persistence still need verification.
 

@@ -1,0 +1,15 @@
+# saving and loading: change the filters, save to P8, go to P1, come back: the values must be the saved ones
+2200 enc 2 40
+2300 enc 3 30
+2400 enc 4 -25
+2500 enc 5 50
+2600 shot
+2700 btndown 9
+2800 enc 6 7
+2900 btnup 9
+3000 shot
+3200 enc 6 -7
+3400 shot
+3600 enc 6 7
+3800 shot
+4000 end
