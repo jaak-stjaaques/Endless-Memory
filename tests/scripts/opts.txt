@@ -1,0 +1,19 @@
+300 shot
+2000 keys 0x4890
+2400 btn 12
+5000 shot
+5100 btn 6
+5400 shot
+5500 btn 11
+5800 shot
+5900 btn 4
+6200 shot
+6300 btn 5
+6600 shot
+6700 btn 2
+7000 shot
+7100 btn 7
+7400 shot
+7500 btn 10
+7800 shot
+8000 end

@@ -1,0 +1,13 @@
+# the two filters on the STAGE page (knobs: enc 2..5): low-pass down with full resonance, then high-pass up
+# with full resonance; nothing may ring on by itself once the keys are let go
+300 keys 0x891
+2000 enc 4 -30
+2100 enc 5 60
+2200 shot
+4000 enc 4 60
+4100 enc 2 35
+4200 enc 3 60
+4300 shot
+6000 keys 0
+9000 shot
+14000 end

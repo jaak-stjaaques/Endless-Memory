@@ -1,0 +1,13 @@
+# a loud low chord (down to A#0): the limiter must hold still while it sustains, no crunch in the low end
+200 midi 0x90 34 127
+200 midi 0x90 41 127
+200 midi 0x90 46 127
+200 midi 0x90 50 127
+200 midi 0x90 22 127
+3000 shot
+6000 midi 0x80 34 0
+6000 midi 0x80 41 0
+6000 midi 0x80 46 0
+6000 midi 0x80 50 0
+6000 midi 0x80 22 0
+8000 end

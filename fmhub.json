@@ -1,0 +1,9 @@
+{
+  "what": "A Shepard-tone synth and climbing sequencer for the FM-1. Every note seems to rise for ever, a short phrase climbs one scale step each repeat, SEL freezes what you hold, and a high-pass and low-pass filter feed a parallel echo and space.",
+  "kinds": ["synth"],
+  "play": "https://joakimeriksson.github.io/fm1-emu/",
+  "cheat": "https://github.com/jaak-stjaaques/Endless-Memory/blob/main/docs/OPERATOR-MANUAL.md",
+  "image": "docs/fmhub-card.png",
+  "color": "#FF5C28",
+  "sounds": "none"
+}

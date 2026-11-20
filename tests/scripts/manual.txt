@@ -1,0 +1,38 @@
+# the screens of docs/OPERATOR-MANUAL.md: boot, then every page with a phrase running
+300 shot
+1800 btn 13
+2000 keys 0x1
+2150 keys 0
+2300 keys 0x10
+2450 keys 0
+2600 keys 0x80
+2750 keys 0
+2900 keys 0x200
+3050 keys 0
+3200 btn 13
+3300 btn 12
+3400 keys 0x91
+3500 btn 3
+6000 shot
+6100 btn 6
+8000 shot
+8100 btn 4
+10000 shot
+10100 btn 4
+12000 shot
+12100 btn 5
+14000 shot
+14100 btn 2
+16000 shot
+16100 btn 11
+18000 shot
+18100 btn 10
+20000 shot
+20100 btn 10
+20200 btn 7
+22000 shot
+22100 btn 8
+22200 btn 3
+22300 keys 0
+24000 shot
+24100 end

@@ -1,0 +1,25 @@
+# preset 2 (empty memory), play + record, a few notes, then let it fade; save; erase
+2000 enc 6 1
+2200 btn 11
+2400 btn 12
+2600 btn 13
+2800 keys 0x1
+3000 keys 0
+3300 keys 0x10
+3500 keys 0
+3900 keys 0x80
+4300 keys 0
+4600 shot
+4700 btn 13
+9000 shot
+9100 btndown 9
+9200 enc 6 2
+9300 btnup 9
+9600 shot
+9700 btndown 13
+11000 btnup 13
+11200 shot
+11500 btn 7
+11600 enc 3 2
+11700 shot
+12000 end

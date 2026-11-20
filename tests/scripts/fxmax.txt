@@ -1,0 +1,11 @@
+# echo and space at full, loud chord, staircase running: no distortion
+500 btn 2
+600 enc 2 60
+700 enc 4 60
+800 enc 3 6
+900 keys 0x891
+4000 keys 0
+4100 keys 0x4891
+8000 keys 0
+9000 shot
+12000 end
