@@ -33,6 +33,8 @@ FM‑1**, so installation and power-cycle persistence still need verification.
 
 ## Credits
 
+Endless Memory is designed by [JaakStJaaques](https://github.com/jaak-stjaaques) and built with Claude.
+
 Endless Memory builds on [Dinghy](https://github.com/zvenson/dinghy) by zvenson and the
 [Felucca](https://github.com/hugelton/Felucca) and [SLOOP](https://github.com/isod89/sloop-fm1)
 platform work it carries. The sound follows the endless scale described by
